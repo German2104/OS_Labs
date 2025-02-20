@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Имя проекта
-project(OS)
+# Название проекта
+project(OS_Labs)
 
-# Рекурсивно добавляем лабораторные работы
-add_subdirectory(lab_01)
+# Указываем стандарт C++
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED True)

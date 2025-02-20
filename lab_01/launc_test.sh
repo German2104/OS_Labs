@@ -12,3 +12,6 @@ make
 echo "Running test"
 ./main_exe ../test/tests01.txt
 ./main_exe ../test/tests02.txt
+
+echo "with strace"
+sudo strace ./main_exe ../test/tests01.txt

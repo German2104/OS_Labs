@@ -49,9 +49,6 @@ vector<vector<int>> getMinor(const vector<vector<int>>& matrix, int row, int col
     return minor;
 }
 
-// Прототип функции с параметром useThreads
-int determinant(const vector<vector<int>>& matrix, bool useThreads = true);
-
 // Функция для вычисления детерминанта методом разложения по первой строке.
 // Если useThreads == true, то на верхнем уровне запускаются потоки, при этом
 // их число ограничивается семафором.

@@ -10,5 +10,5 @@ make
 
 # run_test
 echo "Running test"
-./main_exe ../test/tests01.txt
-./main_exe ../test/tests02.txt
+sudo strace ./main_exe ../test/tests01.txt
+sudo strace ./main_exe ../test/tests02.txt
